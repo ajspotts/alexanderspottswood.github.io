@@ -1,0 +1,71 @@
+header {
+  color:white;
+  text-align: center;
+  font-size:30px;
+  background: url(../images/Cinque-Terre.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+nav {
+  width: 100%;
+  margin-bottom: 250px;
+  position:relative;
+  bottom: 30%;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border: 2px solid white;
+  margin: 20px;
+}
+
+h1{
+  font-size: 50px;
+  margin: 5px;
+}
+
+h2{
+  font-size:40px;
+  color:white;
+  text-align:center;
+}
+
+a {
+  display:inline-block;
+  color: white;
+  margin: 20px;
+}
+
+#container {
+  background:url(../images/Santorini.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#container2 {
+  background:url(../images/Ibiza.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+div.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+
+}
+div.gallery div {
+  height: 250px;
+  width: 300px;
+  background:black;
+}
+
+li {
+  font-size: 30px;
+}
